@@ -49,3 +49,6 @@
 # ************************************************
 $(call add-clean-step, rm -rf $(OUT_DIR)/host/linux-x86/obj/STATIC_LIBRARIES/libfdlibm-host_intermediates)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/STATIC_LIBRARIES/libfdlibm_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/host/linux-x86/obj/STATIC_LIBRARIES/libfdlibm-host_intermediates)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/STATIC_LIBRARIES/libfdlibm_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/host/linux-x86/obj/STATIC_LIBRARIES/libfdlibm_intermediates)
