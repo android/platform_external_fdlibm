@@ -1,0 +1,8 @@
+Change-Id: Ica2fed20b68600aaccdd10a1ff999cf63b18bdfc
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Wed, 18 Mar 2009 17:57:57 -0700
+Reviewed-on: https://review.source.android.com/9264
+Project: platform/external/fdlibm
+Branch: refs/heads/master
