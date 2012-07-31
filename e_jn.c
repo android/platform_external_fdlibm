@@ -218,7 +218,8 @@ static double zero  =  0.00000000000000000000e+00;
 	int n; double x;
 #endif
 {
-	int i,hx,ix,lx;
+	int i;
+	int hx,ix,lx;
 	int sign;
 	double a, b, temp;
 
