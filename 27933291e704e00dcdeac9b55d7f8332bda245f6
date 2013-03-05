@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "Q57v5J74",
+        "filename": "CleanSpec.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2013-03-05T20:58:55Z",
+      "side": 1,
+      "message": "the name of the host library had changed since the last time we had a cleanspec here, so just copying and pasting the old cleanspec (as i did in ps1) didn\u0027t work. ps2 fixes that, verified with objdump (though i needed the duplication because editing L52 was ignored because i\u0027d already run make).",
+      "revId": "27933291e704e00dcdeac9b55d7f8332bda245f6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
