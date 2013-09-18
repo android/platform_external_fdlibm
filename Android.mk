@@ -61,7 +61,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES:= $(src_files)
 LOCAL_CFLAGS := $(cflags)
 
-ifneq ($(filter $(TARGET_ARCH),arm x86),)
+ifneq ($(filter $(TARGET_ARCH),arm x86 aarch64),)
     # When __LITTLE_ENDIAN is set, the source will compile for
     # little endian cpus.
     LOCAL_CFLAGS += "-D__LITTLE_ENDIAN"
