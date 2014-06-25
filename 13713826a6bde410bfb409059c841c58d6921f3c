@@ -1,0 +1,7 @@
+Code-Review+2: Brian Carlstrom <bdc@google.com>
+Verified+1: Ian Rogers <irogers@google.com>
+Submitted-by: Ian Rogers <irogers@google.com>
+Submitted-at: Wed, 25 Jun 2014 04:01:56 +0000
+Reviewed-on: https://android-review.googlesource.com/99381
+Project: platform/external/fdlibm
+Branch: refs/heads/master
