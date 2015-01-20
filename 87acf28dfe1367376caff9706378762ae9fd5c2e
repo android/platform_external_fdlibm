@@ -16,6 +16,24 @@
       "revId": "87acf28dfe1367376caff9706378762ae9fd5c2e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b2527f1_c7149e66",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2015-01-20T22:30:27Z",
+      "side": 1,
+      "message": "Doing the inverse of this is easy since we have LOCAL_CLANG_CFLAGS. Do we need a LOCAL_GCC_CFLAGS?",
+      "parentUuid": "ab202bdf_eb79ad30",
+      "revId": "87acf28dfe1367376caff9706378762ae9fd5c2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
