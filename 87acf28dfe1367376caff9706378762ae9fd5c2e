@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab202bdf_eb79ad30",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003981
+      },
+      "writtenOn": "2015-01-20T22:28:50Z",
+      "side": 1,
+      "message": "LOCAL_CLANG isn\u0027t set yet at this point.\nI think you need to detect USE_CLANG_PLATFORM_BUILD instead.",
+      "revId": "87acf28dfe1367376caff9706378762ae9fd5c2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
