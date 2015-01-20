@@ -52,7 +52,7 @@ cflags += -D__LITTLE_ENDIAN
 # library (see their own admission in 'readme'). Without this, we
 # fail StrictMath tests on x86.
 cflags += -fno-strict-aliasing
-cflags += -ffloat-store
+gcc_cflags := -ffloat-store
 
 # c99 specifies a less relaxed floating point model that does not enable
 # floating point expession contraction (e.g: fused multiply-add operations).
@@ -67,6 +67,9 @@ LOCAL_SRC_FILES:= $(src_files)
 LOCAL_CFLAGS := $(cflags)
 LOCAL_MODULE := libfdlibm
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
+ifneq ($(LOCAL_CLANG),true)
+  LOCAL_CFLAGS += $(gcc_cflags)
+endif
 include $(BUILD_STATIC_LIBRARY)
 
 
@@ -80,4 +83,7 @@ LOCAL_CFLAGS := $(cflags)
 LOCAL_MODULE := libfdlibm
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
 LOCAL_MULTILIB := both
+ifeq ($(LOCAL_CLANG),false)
+  LOCAL_CFLAGS += $(gcc_cflags)
+endif
 include $(BUILD_HOST_STATIC_LIBRARY)
