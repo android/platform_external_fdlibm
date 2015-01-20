@@ -34,6 +34,24 @@
       "revId": "87acf28dfe1367376caff9706378762ae9fd5c2e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb2b9fc1_0ff08920",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1041833
+      },
+      "writtenOn": "2015-01-20T22:40:22Z",
+      "side": 1,
+      "message": "Considering that we want to get rid of fdlibm at some point, the additional flag family is overkill. As pointed out in my general comment, chh should take this over if it hits the clang target build, as he\u0027s responsible for it. This was just a very simply try...",
+      "parentUuid": "8b2527f1_c7149e66",
+      "revId": "87acf28dfe1367376caff9706378762ae9fd5c2e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
