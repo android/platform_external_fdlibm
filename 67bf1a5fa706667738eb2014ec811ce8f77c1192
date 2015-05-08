@@ -1,0 +1,7 @@
+Code-Review+2: Dan Albert <danalbert@google.com>
+Verified+1: Colin Cross <ccross@google.com>
+Submitted-by: Colin Cross <ccross@google.com>
+Submitted-at: Fri, 08 May 2015 00:44:52 +0000
+Reviewed-on: https://android-review.googlesource.com/149829
+Project: platform/external/fdlibm
+Branch: refs/heads/master-soong
