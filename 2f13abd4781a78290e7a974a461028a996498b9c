@@ -1,0 +1,8 @@
+Code-Review+2: Narayan Kamath <narayan@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Nicolas Geoffray <ngeoffray@google.com>
+Submitted-at: Mon, 04 May 2020 12:30:58 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/external/fdlibm/+/1301336
+Project: platform/external/fdlibm
+Branch: refs/heads/master
