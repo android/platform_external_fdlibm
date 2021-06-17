@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "250f6025_affc5b8f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-06-17T16:36:41Z",
+      "side": 1,
+      "message": "(fwiw, this is why i use the `include` directive in OWNERS and just point to a central list of team members in a central project...)",
+      "revId": "00983568fbd840fcabb88ce8b93668ba43a815f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
